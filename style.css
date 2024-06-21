@@ -11,7 +11,7 @@ ul {
 
 .site-header {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     align-items: center;
     padding: 20px;
 }
@@ -22,14 +22,14 @@ ul {
 
 .menu-list{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
 .menu-link {
     text-decoration: none;
     font-weight: bold;
-    color: #c92071
+    color: #C92071;
     font-size: 22px;
 }
 
