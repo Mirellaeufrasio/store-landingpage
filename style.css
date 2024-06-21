@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+h1 {
+    color: #72093c;
+}
+
 ul {
     list-style: none;
 }
@@ -33,3 +37,37 @@ ul {
     font-size: 22px;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-bg-imagem {
+    width: 100%;
+}
+
+.home-title {
+    position: absolute;
+    padding: 30px;
+    background-color: #89154d;
+    color: #fff;
+    font-size: 100%;
+}
+
+#promotions .image-item {
+    width: 405px;
+    height: 251px;
+    background-image: url(https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/main/public/collection-2.png);
+}
+    .promotions-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.promotions-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #89154d;
+}
